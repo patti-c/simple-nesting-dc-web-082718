@@ -40,6 +40,7 @@ def alan_kay_is_known_for
      }
      
      programmer_hash[:alan_kay][:known_for]
+     programmer_hash
      
 end
 
@@ -61,6 +62,7 @@ def dennis_ritchies_language
      }
      
      programmer_hash[:dennis_ritchie][:languages[0]]
+     programmer_hash
      
 end
 
@@ -88,6 +90,7 @@ def adding_matz
      }
      
   programmer_hash[:yukihiro_matsumoto] = {}
+  programmer_hash
 
     
 end
@@ -112,6 +115,7 @@ def changing_alan
      alans_new_info = "GUI"
      
      programmer_hash[:alan_kay] = alans_new_info
+     programmer_hash
      
 end
 
@@ -133,5 +137,6 @@ def adding_to_dennis
      }
      
      programmer_hash[:dennis_ritchie][:languages[2]] = "Assembly"
+     programmer_hash
 
 end
